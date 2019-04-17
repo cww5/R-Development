@@ -1,0 +1,20 @@
+HW4 is also Lab 9
+
+Download the kkbox-churn-prediction-challenge training data file from kaggle.
+https://www.kaggle.com/c/kkbox-churn-prediction-challenge
+Following the sample codes Lab9.R, split the training data into two parts, one for training and
+one for testing. In the sample codes, we show how to train and test using Lasso (logistic
+regression + L1 regularization) and SVM.
+1. Train a Random Forest on the training data part, and test it on the testing data part.
+Report the training and testing AUCs, respectively.
+2. Train a neural network on the training data part, and test it on the testing data part.
+Report the training and testing AUCs, respectively.
+For Q1 and Q2, please also submit your R codes for obtaining your results (e.g. like the Lab9.R).
+
+3. Given the following prediction, please compute its AUC manually.
+Sample ID 	Predicted Value 	Sample Label
+1 		0.9 			1
+2 		0.5 			1
+3 		0.4 			1
+4 		0.6 			0
+5 		0.3 			0
